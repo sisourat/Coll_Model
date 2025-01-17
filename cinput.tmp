@@ -1,0 +1,19 @@
+<CollInput>
+
+  <ImpactParam type='linear' bmin='bbb' bmax='0.0' nb='1' />
+  <ImpactVel vx='0.0' vy='0.0' vz='0.063' />
+  <Zgrid type='exp' zmin='-100' zmax='100' nzgrid='200' />
+
+  <InitState   type='Target' state='1' />
+  <Potential charge='3.0' exponent='0.0' />
+
+  <Bound stamin='1' stamax='4'/>
+  <SingIon stamin='0' stamax='0'/>
+  <DoubIon stamin='0' stamax='0'/>
+
+
+  <Target file='tinput_sta' stamin="1" stamax="4"/>
+  <Tar_Proj   stamin="4" stamax="7"/>
+  <Projectile file='pinput_sta' stamin="1" stamax="4"/>
+
+</CollInput>
